@@ -1,0 +1,22 @@
+@baseurl = http://localhost:3333
+
+# @name create_account
+POST {{baseurl}}/accounts
+Content-Type: application/json
+
+{
+  "name": "Diego Fernandes",
+  "email": "diego4@rocketseat.com.br",
+  "password": "123456"
+}
+
+###
+
+# @name authenticate
+POST {{baseurl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "diego4@rocketseat.com.br",
+  "password": "123456"
+}
