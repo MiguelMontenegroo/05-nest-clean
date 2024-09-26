@@ -13,6 +13,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .env
+private_key.pem
+public_key.pem
 # OS
 .DS_Store
 
